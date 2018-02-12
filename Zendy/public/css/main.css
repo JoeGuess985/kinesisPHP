@@ -1,0 +1,24 @@
+
+
+body
+{
+	color: #ffffff;
+	background-color: #383838;
+}
+
+#Update
+{
+	padding: 10px;
+	float: right;
+}
+
+#Save
+{
+	padding: 10px;
+	float: right;
+}
+
+span
+{
+	transform: translate(256px, 200px);
+}

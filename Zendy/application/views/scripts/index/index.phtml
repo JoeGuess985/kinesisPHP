@@ -1,0 +1,39 @@
+
+<?php echo $this->headLink()->appendStylesheet('/Zendy/public/css//main.css') ?>
+
+	<?php 
+		echo $this->srcForm;
+	?>
+
+<div class="center-div">
+	
+	<?php 
+		foreach($this->srcLayout as $key => $value)
+		{
+			$p = explode(", ", $this->pos[$key]);
+
+			$w = 25;
+			$h = 25;
+
+			$bgcolor =  $p[2] == 0 ? '#2266cc;': '#222222;'; 		//color homekeys
+
+			echo '
+			<span style="position:absolute; background-color:' . $bgcolor . ' border-radius:9px; padding:8px;' 
+			. ' left:'. $p[0] . 'px;'
+			. ' top:'. $p[1] . 'px;'
+			. ' width:'. $w . 'px;' 
+			. ' height:'. $h . 'px;">'
+			. $value
+			. '</span>';
+		}
+	?>
+</div>
+ 
+<?php 
+	//debug
+//	echo $this->saveFunc;
+//	echo var_dump($this->saveFunc);
+?>
+
+
+	
