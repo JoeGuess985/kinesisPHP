@@ -8,8 +8,7 @@ A layout editor for the Kinesis virtual drive config files
 - Export layout over Qwerty or Dvorak mapping (so you can load them from the Qwerty layout button or Dvorak layout button on your Kinesis advantage 2)
 
 
-![Alt text](/gfx/preview_kinesisPHP.png?raw=true "KinesisPHP preview")
-
+![Alt text](/gfx/preview_kinesisPHP.gif?raw=true "KinesisPHP preview")
 
 
 
